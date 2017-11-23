@@ -9,12 +9,12 @@ console.log(`${hello1} ${world}`);
 Zadanie 2
  */
 var multiply = (a, b = 1) => a*b;
-
+multiply(2,2);
 /*
 Zadnie 3
  */
 let average = (...args) => args.reduce( (a,b) => a+b )/args.length ;
-
+average(2,3,4,1,2,3,4,3);
 /*
 Zadananie 4
  */
